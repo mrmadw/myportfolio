@@ -16,3 +16,9 @@
   height: 32px;
   filter: invert(40%) sepia(80%) saturate(500%) hue-rotate(200deg);
 }
+
+#skill_icon {
+  width: 32px;
+  height: 32px;
+  
+}
