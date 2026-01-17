@@ -7,6 +7,15 @@ import Graduation from '../assets/graduation.png'
 import Github from '../assets/github.png'
 import Linked from '../assets/linkedin.png'
 import User from '../assets/user.png'
+import Cloud from '../assets/cloud-server.png'
+import Docker from '../assets/docker.png'
+import Linux from '../assets/linux.png'
+import JS from '../assets/js.png'
+import Python from '../assets/python.png'
+import Internet from '../assets/internet.png'
+import CSS from '../assets/css-3.png'
+import Debug from '../assets/debug.png'
+import HTML from '../assets/html.png'
 
 function Main() {
 
@@ -166,17 +175,134 @@ You can find more details about my current project below, along with my download
             <div className="mt-4 border rounded-lg p-4 shadow-lg bg-white text-black">
               {active === "skills" && (
                 <ul className="space-y-2">
-                  <li>React</li>
-                  <li>TailwindCSS</li>
-                  <li>JavaScript</li>
+                  
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Docker}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Docker Containers</h3>
+                  </div>
+
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Cloud}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Cloud Server</h3>
+                  </div>
+
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Linux}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Linux OS</h3>
+                  </div>
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={JS}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Javascript Programming Language</h3>
+                  </div>
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Python}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Python Programming Language</h3>
+                  </div>
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={HTML}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>HTML</h3>
+                  </div>
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={CSS}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>CSS</h3>
+                  </div>
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Debug}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>Code Debugging</h3>
+                  </div>
                 </ul>
+
+
               )}
 
               {active === "projects" && (
                 <ul className="space-y-2">
-                  <li>Portfolio Website</li>
-                  <li>Todo App</li>
-                  <li>API Dashboard</li>
+                  <h4 className="font-bold">Click on the projects below to view their source code.</h4>
+
+<div className="flex-col space-y-2">
+<a href="https://github.com/mrmadw/trademach-backend.git"
+ target="_blank" rel="noopener noreferrer">
+                     
+
+                  <div className="flex gap-2">
+              
+                     <img
+                id="skill_icon"
+                src={Internet}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+            
+
+
+               <h3>Online Store Platform - </h3>
+              <p>Enabling buyers and sellers to connect</p>
+                  </div>
+</a>
+
+          
+<a href="https://github.com/mrmadw/myportfolio.git"
+ target="_blank" rel="noopener noreferrer">
+
+                  <div className="flex gap-2">
+                     <img
+                id="skill_icon"
+                src={Internet}
+                alt="Experience"
+                className="w-6 h-6 object-contain"
+              />
+              <h3>My Private Porfolio - </h3>
+              <p>My online portfoilio for self advertising</p>
+                  </div>
+                </a>
+                 </div>
                 </ul>
               )}
             </div>
