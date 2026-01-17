@@ -91,7 +91,7 @@ You can find more details about my current project below, along with my download
 
         <button className="w-40 rounded-md border bg-gradient-to-l from-black to-white p-2 font-bold mx-auto lg:mx-0">
           <a
-            href="https://mega.nz/file/zlxUlIKB#qpCTYb6yx_nFJB7VwkiVRlUfmEhCe4vhLChl2ic-KSg"
+            href="https://mega.nz/file/foJxXAKS#ZQ3J-mQWhQVkLewFTcjtCP6zMJBSIuTRFp0b3X4Df3o"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -154,7 +154,7 @@ You can find more details about my current project below, along with my download
         </div>
 
  <p>Click the buttons below for more information</p>
- 
+
         {/* Skills Section */}
         <div className="w-full max-w-xl mx-auto lg:mx-0">
           <div className="flex gap-4 justify-center lg:justify-start">
