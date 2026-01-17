@@ -153,6 +153,8 @@ You can find more details about my current project below, along with my download
 
         </div>
 
+ <p>Click the buttons below for more information</p>
+ 
         {/* Skills Section */}
         <div className="w-full max-w-xl mx-auto lg:mx-0">
           <div className="flex gap-4 justify-center lg:justify-start">
