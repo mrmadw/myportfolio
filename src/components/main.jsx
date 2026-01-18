@@ -126,7 +126,7 @@ You can find more details about my current project below, along with my download
             <div className="bg-gradient-to-r from-white to-purple-200 rounded-md p-4 text-black">
               <h1 className="font-bold">Sonoma Adventist College</h1>
               <p>Position: IT Support</p>
-              <p>Duration: 1 year 2 months</p>
+              <p>Duration: 1 year 6 months</p>
             </div>
           </div>
 
